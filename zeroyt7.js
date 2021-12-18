@@ -599,6 +599,151 @@ anu = await fetchJson(`https://api.lolhuman.xyz/api/checkapikey?apikey=${lolkey}
 teks = `*YOUR APIKEY*\n\n➸ Ussername= ${anu.result.username}\n➸ Akun Type= ${anu.result.account_type}\n➸ Expired= ${anu.result.expired}\n➸ API = https://api.lolhuman.xyz`
 zeroyt7.sendMessage(from, teks, text, {quoted: mek})
 break
+case 'topup': 
+if (isBanned) return reply(mess.Ban) 
+if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
+timestamp = speed();
+latensi = speed() - timestamp;
+run = process.uptime();
+lolot = `*${ucapanWaktu} ${pushname}*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `
+pilih salah satu
+`
+but = [{ buttonId: `.packtopup`, buttonText: { displayText: 'PACK TOP UP' }, type: 1 },{ buttonId: `.upgradetopup`, buttonText: { displayText: 'UPGRADE TOP UP' }, type: 1 },{ buttonId: `.sewabot`, buttonText: { displayText: 'SEWA BOT' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+break
+case 'packtopup': 
+if (isBanned) return reply(mess.Ban) 
+if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
+timestamp = speed();
+latensi = speed() - timestamp;
+run = process.uptime();
+lolot = `*${ucapanWaktu} ${pushname}*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `
+@everyone 
+
+NEW LIST TOP UP
+gemList Price Pack TopUpgem
+
+gemRp. 50.000 / $3,5 
+ 1000 c 
+ Orb Tier 25.000
+ Exp scroll 70M 
+ Silver 70M 
+ Kaguya Stone 15
+ 
+ gemRp. 100.000 / $7 
+ 2000 c 
+  Orb Tier 50.000 
+  Silver 150M 
+  Exp scroll 150M 
+  Kaguya Stone 30 
+  150 Shard Sasuke Indra
+
+gemRp. 300.000 / $21
+ 5.000 c 
+ Orb Tier 150.000 
+ Silver 300M 
+ Exp Scroll 300M 
+ Kaguya stone 60
+ 300 Shard Sasuke Indra 
+
+gemRp. 500.000 / $35 
+ 10.000 c
+ Orb Tier 300.000
+ Silver 600M 
+ Exp scroll 600M 
+ Kaguya Stone 100 
+ Ancient Book *5
+ 500 shard Sasuke Indra
+Kaguya Premium gems *10
+
+gemRp. 1.000.000 / $70 
+ 20.000 c 
+Orb Tier 500.000 
+Silver 1b 
+Exp Scroll 1b
+Kaguya Stone 200 
+Awaken Jutsu *3 
+Esensse scroll 200.000 
+1000 Shard Sasuke Indra 
+Ancient book *10
+Kaguya Premium gem 20
+`
+but = [{ buttonId: `.owner`, buttonText: { displayText: 'OWNER' }, type: 1 },{ buttonId: `.menu`, buttonText: { displayText: 'MENU' }, type: 1 },{ buttonId: `.sewabot`, buttonText: { displayText: 'SEWA BOT' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+break
+case 'upgradetopup': 
+if (isBanned) return reply(mess.Ban) 
+if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
+timestamp = speed();
+latensi = speed() - timestamp;
+run = process.uptime();
+lolot = `*${ucapanWaktu} ${pushname}*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `
+#FULL MAX PACK#
+
+#Chakra Full ( 1 Opsi ) + Tier up Max Rp. 600.000 / 46$
+( 80.394 Cystal + 1.235.500.000 silver + 5Hero B5 + 1Hero B6, B7, B8, B9, B10 ) 
+
+# Full All Unlock PVP Skill Guild Rp. 600.000 / 46$
+( 1.148.000 Guild Contribution + 703 M Silver ) 
+
+# Full 1 PVP skill Guild Rp. 350.000 / 27$
+( 452.200 Guild Contribution + 1065 Guild Tome ) 
+
+# Sage Tool jutsu Max : Rp. 600.000 / 46$
+( 1000 Sage tools jutsu + 50M silver ) 
+
+Sage Max : Rp. 450.000 / 32$
+( 70.000 Sage Stone + 500M silver )
+
+#Amplify Phase Max Lvl 200 Rp. 1.200.000
+( Chakra Fruit 226.000 + 700M Silver
+
+#Hero 15 Star Level 540 Rp. 450.000
+
+#Hero 15 Star level 100 Rp. 200.000
+
+#Sasuke Indra 15 Star Level 540 Rp. 650.000
+
+#Danzo 20 Star Level 540 Rp. 1.200.000
+
+#Hiruzen 20 Star level 540 Rp. 850.000
+
+#Kakashi 20 Star level 540 Rp. 850.000
+
+#HARGA SATUAN#
+
+#1 Kaguya Gem Rp. 5000 / 0,5$
+#1 Kaguya Premium Gem Rp. 25.000 / 3$
+#1 Essense scroll Rp. 1
+#10.000 Tier Orb Rp. 2.000 
+#1 Optional Jutsu Rare Rp. 5000 / 0,5$
+#1 Nin Soul 10 Star Rp. 25.000 / 2,5$
+#1 Ninja 5 Star Rp. 6.500 / 0,6$ ( Tanpa Sasuke Indra ) 
+#1 Ancient Book : Rp. 10.000 / 1$
+#1 Gear 5-star Rp. 20.000 / 2$
+#1 Sage stone Rp. 64 
+#1 Sage tools Jutsu Rp. 640
+#1 Beast 5-Star Rp. 50.000 / 5$
+#Level 3 Awakening Jutsu Rp. 150.000
+#1 Optional Awakening Jutsu Rp. 16.500 / 2$
+#1 Awakening stone Rp. 5000 / 0,5 $
+#1 Ulti-Gear 5 Star Optional Rp. 20.000 / 2$
+#1 Advance Fortune Pearl Rp. 4.000 / 0,5$
+#Chakra Fruit 40.000 ; Rp.155.000
+#Nindo Stone 100.000 : Rp. 100.000
+#1 Myoboku Stone Rp. 100
+#1 Samsara jade Rp. 3.500
+#5 Skins Ninja Rp. 100.000
+`
+but = [{ buttonId: `.owner`, buttonText: { displayText: 'OWNER' }, type: 1 },{ buttonId: `.menu`, buttonText: { displayText: 'MENU' }, type: 1 },{ buttonId: `.sewabot`, buttonText: { displayText: 'SEWA BOT' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+break
 case 'menu': 
 if (isBanned) return reply(mess.Ban) 
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
