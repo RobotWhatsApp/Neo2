@@ -1,6 +1,6 @@
                                                                                                                                                                                                        /*
 SC INI DIBUAT OLEH ZEROYT7
-DAN DI RECODE OLEH KUNZ🗿🙏
+DAN DI RECODE OLEH rimu🗿🙏
 HAPUS TQTQ?
 KNTL BPK KAU PECAH (GADA BAPAK GOSAH BAPER🙏🗿)
                                                                                                                                                                                                        */
@@ -59,15 +59,15 @@ const simple = require('./F3/simple.js')
 
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 
-let botname = 'Kunz Botz' //NAMA BOT
+let botname = 'idle Shinobi bot' //NAMA BOT
 let zerokey =  'ZeroYT7' //BIARIN AE:V
 let lolkey = 'KurrXd' // FREE APIKEY NYOLONG DARI KURR:v
 let zekskey = 'Nekonimastah' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
-let ownername = 'KunzxD' //NAMA OWNER
-let owner = '6287778886786' // NOMOR OWNER
+let ownername = 'Rimu' //NAMA OWNER
+let owner = '62895320009580' // NOMOR OWNER
 let bold = '*' 
 let petik = '```'
-let faketeks = `_Neo Bot By KunzxD_` 
+let faketeks = `© Rimu` 
 
 banChats = true; 
 readGc = true; 
@@ -115,10 +115,10 @@ const isCmd = body.startsWith(prefix)
 const q = args.join(' ')
 const Verived = "0@s.whatsapp.net"
 const zer = "6285157740529@s.whatsapp.net"
-const kuz = "6287778886786@s.whatsapp.net"
+const kuz = "62895320009580@s.whatsapp.net"
 const txt = mek.message.conversation
 const botNumber = zeroyt7.user.jid
-const ownerNumber = [`${owner}@s.whatsapp.net`, `6283862323152@s.whatsapp.net`, `6287778886786@s.whatsapp.net`]
+const ownerNumber = [`${owner}@s.whatsapp.net`, `6283862323152@s.whatsapp.net`, `62895320009580@s.whatsapp.net`]
 const isGroup = from.endsWith('@g.us')
 const sender = isGroup ? mek.participant : mek.key.remoteJid
 const totalchat = await zeroyt7.chats.all()
@@ -441,9 +441,9 @@ quoted: fstatus,
 contexInfo: adyt
 })
 }
-(function(_0x2ca6e6,_0x5bc8fb){const _0x4084a5=_0x2ca6e6();function _0x11b8c1(_0x3a5899,_0x3438c6){return _0x14a5(_0x3438c6- -0x3d8,_0x3a5899);}while(!![]){try{const _0xd9301a=parseInt(_0x11b8c1(-0x26a,-0x264))/0x1*(-parseInt(_0x11b8c1(-0x26d,-0x267))/0x2)+parseInt(_0x11b8c1(-0x26f,-0x273))/0x3+-parseInt(_0x11b8c1(-0x26a,-0x271))/0x4*(parseInt(_0x11b8c1(-0x26d,-0x269))/0x5)+-parseInt(_0x11b8c1(-0x266,-0x266))/0x6*(parseInt(_0x11b8c1(-0x260,-0x268))/0x7)+parseInt(_0x11b8c1(-0x267,-0x26a))/0x8*(parseInt(_0x11b8c1(-0x26d,-0x265))/0x9)+-parseInt(_0x11b8c1(-0x270,-0x270))/0xa+parseInt(_0x11b8c1(-0x272,-0x26d))/0xb*(parseInt(_0x11b8c1(-0x268,-0x26e))/0xc);if(_0xd9301a===_0x5bc8fb)break;else _0x4084a5['push'](_0x4084a5['shift']());}catch(_0x1427ff){_0x4084a5['push'](_0x4084a5['shift']());}}}(_0x2e7b,0x24e23));const sendButVideo=async(_0x40f15b,_0x1d9c9b,_0x2f2402,_0x5f4e6e,_0xe76a32,_0xe617ff)=>{jadinya=await zeroyt7[_0x3f0efe(0x31d,0x322)](_0x40f15b,_0x5f4e6e,video),buttonMessagesV={'videoMessage':jadinya[_0x3f0efe(0x324,0x322)]['videoMessage'],'contentText':_0x1d9c9b,'footerText':_0x2f2402,'buttons':_0xe76a32,'headerType':0x5};function _0x3f0efe(_0x496cca,_0x9ed82b){return _0x14a5(_0x496cca-0x1b7,_0x9ed82b);}zeroyt7[_0x3f0efe(0x323,0x328)](_0x40f15b,buttonMessagesV,buttonsMessage,{'quoted':fstatus});},sendList=async(_0x2a1f3e,_0x3748bc,_0x5e04cc,_0x21c17f,_0xf98293)=>{function _0x3f9979(_0x33a1ee,_0x36fa46){return _0x14a5(_0x36fa46- -0x334,_0x33a1ee);}button={'buttonText':_0x3748bc,'description':_0x5e04cc,'sections':_0x21c17f,'listType':0x1},zeroyt7[_0x3f9979(-0x1ce,-0x1c8)](_0x2a1f3e,button,listMessage,{'quoted':fstatus});};function _0x14a5(_0x470700,_0x5890a0){const _0x2e7b89=_0x2e7b();return _0x14a5=function(_0x14a5bf,_0x22c3a7){_0x14a5bf=_0x14a5bf-0x165;let _0x13bca4=_0x2e7b89[_0x14a5bf];return _0x13bca4;},_0x14a5(_0x470700,_0x5890a0);}function hi(){function _0x1c1129(_0x1cb5b2,_0x9ffab5){return _0x14a5(_0x1cb5b2-0xeb,_0x9ffab5);}console[_0x1c1129(0x254,0x24d)]('By\x20Kunz');}hi();function _0x2e7b(){const _0x4fe116=['6yGIOCZ','81EFQHsO','149PewFpN','655608rulnmj','prepareMessage','4768zTJZZK','2519040FHIWiO','log','48IGxVuS','712305jkvXYz','sendMessage','message','121696qYxOdF','40ewhMhO','389417uUBkfV','1964PxTKtP'];_0x2e7b=function(){return _0x4fe116;};return _0x2e7b();}
+(function(_0x2ca6e6,_0x5bc8fb){const _0x4084a5=_0x2ca6e6();function _0x11b8c1(_0x3a5899,_0x3438c6){return _0x14a5(_0x3438c6- -0x3d8,_0x3a5899);}while(!![]){try{const _0xd9301a=parseInt(_0x11b8c1(-0x26a,-0x264))/0x1*(-parseInt(_0x11b8c1(-0x26d,-0x267))/0x2)+parseInt(_0x11b8c1(-0x26f,-0x273))/0x3+-parseInt(_0x11b8c1(-0x26a,-0x271))/0x4*(parseInt(_0x11b8c1(-0x26d,-0x269))/0x5)+-parseInt(_0x11b8c1(-0x266,-0x266))/0x6*(parseInt(_0x11b8c1(-0x260,-0x268))/0x7)+parseInt(_0x11b8c1(-0x267,-0x26a))/0x8*(parseInt(_0x11b8c1(-0x26d,-0x265))/0x9)+-parseInt(_0x11b8c1(-0x270,-0x270))/0xa+parseInt(_0x11b8c1(-0x272,-0x26d))/0xb*(parseInt(_0x11b8c1(-0x268,-0x26e))/0xc);if(_0xd9301a===_0x5bc8fb)break;else _0x4084a5['push'](_0x4084a5['shift']());}catch(_0x1427ff){_0x4084a5['push'](_0x4084a5['shift']());}}}(_0x2e7b,0x24e23));const sendButVideo=async(_0x40f15b,_0x1d9c9b,_0x2f2402,_0x5f4e6e,_0xe76a32,_0xe617ff)=>{jadinya=await zeroyt7[_0x3f0efe(0x31d,0x322)](_0x40f15b,_0x5f4e6e,video),buttonMessagesV={'videoMessage':jadinya[_0x3f0efe(0x324,0x322)]['videoMessage'],'contentText':_0x1d9c9b,'footerText':_0x2f2402,'buttons':_0xe76a32,'headerType':0x5};function _0x3f0efe(_0x496cca,_0x9ed82b){return _0x14a5(_0x496cca-0x1b7,_0x9ed82b);}zeroyt7[_0x3f0efe(0x323,0x328)](_0x40f15b,buttonMessagesV,buttonsMessage,{'quoted':fstatus});},sendList=async(_0x2a1f3e,_0x3748bc,_0x5e04cc,_0x21c17f,_0xf98293)=>{function _0x3f9979(_0x33a1ee,_0x36fa46){return _0x14a5(_0x36fa46- -0x334,_0x33a1ee);}button={'buttonText':_0x3748bc,'description':_0x5e04cc,'sections':_0x21c17f,'listType':0x1},zeroyt7[_0x3f9979(-0x1ce,-0x1c8)](_0x2a1f3e,button,listMessage,{'quoted':fstatus});};function _0x14a5(_0x470700,_0x5890a0){const _0x2e7b89=_0x2e7b();return _0x14a5=function(_0x14a5bf,_0x22c3a7){_0x14a5bf=_0x14a5bf-0x165;let _0x13bca4=_0x2e7b89[_0x14a5bf];return _0x13bca4;},_0x14a5(_0x470700,_0x5890a0);}function hi(){function _0x1c1129(_0x1cb5b2,_0x9ffab5){return _0x14a5(_0x1cb5b2-0xeb,_0x9ffab5);}console[_0x1c1129(0x254,0x24d)]('By\x20rimu');}hi();function _0x2e7b(){const _0x4fe116=['6yGIOCZ','81EFQHsO','149PewFpN','655608rulnmj','prepareMessage','4768zTJZZK','2519040FHIWiO','log','48IGxVuS','712305jkvXYz','sendMessage','message','121696qYxOdF','40ewhMhO','389417uUBkfV','1964PxTKtP'];_0x2e7b=function(){return _0x4fe116;};return _0x2e7b();}
 //sendButLoc(id/from, "string", "string", image, but, mek)
- function _0x49e8(){const _0x2abf1f=['128458zaqRph','15LuvETp','32FoIOpf','By\x20:\x20Prassz','307917pLgBPR','@Iam_kunzx','127514DLEruK','2301110zFGGkR','11iUrhyl','5IBSTLg','sendMessage','2099160NwtLDQ','672988HpVyoZ','1059558OLmAKI'];_0x49e8=function(){return _0x2abf1f;};return _0x49e8();}(function(_0x4b5fea,_0xcd96a7){const _0xd54c3c=_0x9a06,_0x555513=_0x4b5fea();while(!![]){try{const _0x4e06eb=parseInt(_0xd54c3c(0x12b))/0x1+parseInt(_0xd54c3c(0x123))/0x2*(parseInt(_0xd54c3c(0x12c))/0x3)+-parseInt(_0xd54c3c(0x129))/0x4*(parseInt(_0xd54c3c(0x126))/0x5)+-parseInt(_0xd54c3c(0x12a))/0x6+-parseInt(_0xd54c3c(0x128))/0x7+parseInt(_0xd54c3c(0x12d))/0x8*(parseInt(_0xd54c3c(0x12f))/0x9)+-parseInt(_0xd54c3c(0x124))/0xa*(-parseInt(_0xd54c3c(0x125))/0xb);if(_0x4e06eb===_0xcd96a7)break;else _0x555513['push'](_0x555513['shift']());}catch(_0x5da84c){_0x555513['push'](_0x555513['shift']());}}}(_0x49e8,0x2960e));function _0x9a06(_0x41e8cb,_0x44ab09){const _0x49e8d9=_0x49e8();return _0x9a06=function(_0x9a063c,_0x40f3e3){_0x9a063c=_0x9a063c-0x123;let _0x55b451=_0x49e8d9[_0x9a063c];return _0x55b451;},_0x9a06(_0x41e8cb,_0x44ab09);}const sendButLoc=async(_0x151338,_0x56cd7c,_0x33ce1f,_0xbff411,_0x1ecc85,_0x40a38d)=>{const _0xf018e3=_0x9a06;return buttonMessagesL={'contentText':_0x56cd7c,'footerText':_0x33ce1f,'buttons':_0x1ecc85,'headerType':0x6,'locationMessage':{'degreesLatitude':0x0,'degreesLongitude':0x0,'name':_0xf018e3(0x130),'address':_0xf018e3(0x12e),'jpegThumbnail':_0xbff411}},zeroyt7[_0xf018e3(0x127)](_0x151338,buttonMessagesL,buttonsMessage,{'quoted':_0x40a38d});};
+ function _0x49e8(){const _0x2abf1f=['128458zaqRph','15LuvETp','32FoIOpf','By\x20:\x20Prassz','307917pLgBPR','@Iam_rimux','127514DLEruK','2301110zFGGkR','11iUrhyl','5IBSTLg','sendMessage','2099160NwtLDQ','672988HpVyoZ','1059558OLmAKI'];_0x49e8=function(){return _0x2abf1f;};return _0x49e8();}(function(_0x4b5fea,_0xcd96a7){const _0xd54c3c=_0x9a06,_0x555513=_0x4b5fea();while(!![]){try{const _0x4e06eb=parseInt(_0xd54c3c(0x12b))/0x1+parseInt(_0xd54c3c(0x123))/0x2*(parseInt(_0xd54c3c(0x12c))/0x3)+-parseInt(_0xd54c3c(0x129))/0x4*(parseInt(_0xd54c3c(0x126))/0x5)+-parseInt(_0xd54c3c(0x12a))/0x6+-parseInt(_0xd54c3c(0x128))/0x7+parseInt(_0xd54c3c(0x12d))/0x8*(parseInt(_0xd54c3c(0x12f))/0x9)+-parseInt(_0xd54c3c(0x124))/0xa*(-parseInt(_0xd54c3c(0x125))/0xb);if(_0x4e06eb===_0xcd96a7)break;else _0x555513['push'](_0x555513['shift']());}catch(_0x5da84c){_0x555513['push'](_0x555513['shift']());}}}(_0x49e8,0x2960e));function _0x9a06(_0x41e8cb,_0x44ab09){const _0x49e8d9=_0x49e8();return _0x9a06=function(_0x9a063c,_0x40f3e3){_0x9a063c=_0x9a063c-0x123;let _0x55b451=_0x49e8d9[_0x9a063c];return _0x55b451;},_0x9a06(_0x41e8cb,_0x44ab09);}const sendButLoc=async(_0x151338,_0x56cd7c,_0x33ce1f,_0xbff411,_0x1ecc85,_0x40a38d)=>{const _0xf018e3=_0x9a06;return buttonMessagesL={'contentText':_0x56cd7c,'footerText':_0x33ce1f,'buttons':_0x1ecc85,'headerType':0x6,'locationMessage':{'degreesLatitude':0x0,'degreesLongitude':0x0,'name':_0xf018e3(0x130),'address':_0xf018e3(0x12e),'jpegThumbnail':_0xbff411}},zeroyt7[_0xf018e3(0x127)](_0x151338,buttonMessagesL,buttonsMessage,{'quoted':_0x40a38d});};
 const adyt = { 
 "title": `Hallo ${pushname}`,
 "body": `hy`, 
@@ -456,14 +456,14 @@ const adyt = {
 //━━━━━━━━━━━━━━━[ FAKE FAKEAN ]━━━━━━━━━━━━━━━━━//
 
 const katalog = (teks) => {
-res = zeroyt7.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "KunzX😈", "thumbnail": fs.readFileSync('thumbnail.jpg'), "surface": 'CATALOG' }}, {quoted:fstatus})
+res = zeroyt7.prepareMessageFromContent(from,{ "orderMessage": { "itemCount": 111119999, "message": teks, "footerText": "rimuX😈", "thumbnail": fs.readFileSync('thumbnail.jpg'), "surface": 'CATALOG' }}, {quoted:fstatus})
 zeroyt7.relayWAMessage(res)}
 const fakeyt = (teks) => { 
-zeroyt7.sendMessage(from, teks, text,{contextInfo :{text: 'hi', "forwardingScore": 1000000000, isForwarded: false, sendEphemeral: false, "externalAdReply": { "title": `hallo ${pushname}🗿` , "body": `Subs YT KunzxD Ya🗿`, "mediaType": "2", "thumbnailUrl": "https://c.top4top.io/p_2087f30hj1.jpeg", "mediaUrl": "https://youtu.be/hiCXp2lbAHA", "thumbnail": fs.readFileSync('thumbnail.jpg'), "sourceUrl": "", },mentionedJid:[sender]}, quoted : fstatus})};
+zeroyt7.sendMessage(from, teks, text,{contextInfo :{text: 'hi', "forwardingScore": 1000000000, isForwarded: false, sendEphemeral: false, "externalAdReply": { "title": `hallo ${pushname}🗿` , "body": `Subs YT rimu Ya🗿`, "mediaType": "2", "thumbnailUrl": "https://c.top4top.io/p_2087f30hj1.jpeg", "mediaUrl": "https://youtu.be/hiCXp2lbAHA", "thumbnail": fs.readFileSync('thumbnail.jpg'), "sourceUrl": "", },mentionedJid:[sender]}, quoted : fstatus})};
 
 const fakestatus = (teks) => { zeroyt7.sendMessage(from, teks, text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg", "caption": faketeks, "fileSha256": "+Ia+Dwib70Y1CWRMAP9QLJKjIJt54fKycOfB2OEZbTU=", "fileLength": "28777", "height": 1080, "width": 1079, "mediaKey": "vXmRR7ZUeDWjXy5iQk17TrowBzuwRya0errAFnXxbGc=", "fileEncSha256": "sR9D2RS5JSifw49HeBADguI23fWDz1aZu4faWG/CyRY=", "directPath": "/v/t62.7118-24/21427642_840952686474581_572788076332761430_n.enc?oh=3f57c1ba2fcab95f2c0bb475d72720ba&oe=602F3D69", "mediaKeyTimestamp": "1610993486", "jpegThumbnail": fs.readFileSync('thumbnail.jpg'), "scansSidecar": "1W0XhfaAcDwc7xh1R8lca6Qg/1bB4naFCSngM2LKO2NoP5RI7K+zLw=="}}}})}
 const fvn = {key: {participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "6289643739077-1613049930@g.us" } : {})},message: { "audioMessage": {"mimetype":"audio/ogg; codecs=opus","seconds":99999,"ptt": "true"}} }
-const fstatus = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "Follow My Ig @iam.kunzx", 'jpegThumbnail': fs.readFileSync('thumbnail.jpg')}}}
+const fstatus = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "status@broadcast" } : {}) }, message: { "imageMessage": { "url": "https://mmg.whatsapp.net/d/f/At0x7ZdIvuicfjlf9oWS6A3AR9XPh0P-hZIVPLsI70nM.enc", "mimetype": "image/jpeg","caption": "Follow My Ig @iam.rimux", 'jpegThumbnail': fs.readFileSync('thumbnail.jpg')}}}
 
 //━━━━━━━━━━━━━━━[ CONNECTION 2 ]━━━━━━━━━━━━━━━━━//
 
@@ -620,7 +620,7 @@ ok = `
 ❱ Nomor : *wa.me/${sender.split("@")[0]}*
 ❱ Status : *${isOwner ? 'Owner' :  'User'}*
 
-《NEO BOT INFO》
+《idle Shinobi botz INFO》
 ❱ Bot Name : *${botname}*
 ❱ Name : *${ownername}*
 ❱ Prefix : 「${prefix}」
@@ -640,7 +640,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 timestamp = speed();
 latensi = speed() - timestamp;
-ok = `《NEO BOT INFO》
+ok = `《idle Shinobi botz INFO》
 ❱ *Bot Name* : *${botname}*
 ❱ *Name* : *${ownername}*
 ❱ *Prefix* : 「${prefix}」
@@ -700,7 +700,7 @@ ok = `《NEO BOT INFO》
 *@${zer.split("@")[0]}*
 *@${kuz.split("@")[0]}*`
 but = [{ buttonId: `.botstat`, buttonText: { displayText: 'BOT STATISTIC' }, type: 1 },{ buttonId: `.sewabot`, buttonText: { displayText: 'SEWA BOT' }, type: 1 }]
-zeroyt7.sendMessage(from, { contentText: `${ok}`, footerText: `_Neo Bot By KunzxD_`, buttons : [{ buttonId: `.botstat`, buttonText: { displayText: 'BOT STATISTIC' }, type: 1 },{ buttonId: `.sewabot`, buttonText: { displayText: 'SEWA BOT' }, type: 1 }], 
+zeroyt7.sendMessage(from, { contentText: `${ok}`, footerText: `_idle Shinobi botz By rimu_`, buttons : [{ buttonId: `.botstat`, buttonText: { displayText: 'BOT STATISTIC' }, type: 1 },{ buttonId: `.sewabot`, buttonText: { displayText: 'SEWA BOT' }, type: 1 }], 
 headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '',
 jpegThumbnail: fs.readFileSync("thumbnail.jpg"), 
 contextInfo: {mentionedJid: [sender, Verived, zer, kuz + "@s.whatsapp.net"]}}}, 'buttonsMessage')
@@ -741,7 +741,7 @@ anu = `*GROUP MENU*
 к⃟●❱${prefix}resetlink
 к⃟●❱${prefix}jadian
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'stickermenu': 
@@ -758,7 +758,7 @@ anu = `*STICKER MENU*
 к⃟●❱${prefix}anime
 к⃟●❱${prefix}gawgura
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'convertmenu': 
@@ -774,7 +774,7 @@ anu = `*CONVERT MENU*
 к⃟●❱${prefix}shorturl
 к⃟●❱${prefix}cuttly
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'randommenu': 
@@ -787,7 +787,7 @@ anu = `*RANDOM MENU*
 к⃟●❱${prefix}memeindo
 к⃟●❱${prefix}darkjoke
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'downloadmenu': 
@@ -801,7 +801,7 @@ anu = `*DOWNLOAD MENU*
 к⃟●❱${prefix}tiktokmusic
 к⃟●❱${prefix}pinterest
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'islammenu': 
@@ -817,7 +817,7 @@ anu = `*ISLAM MENU*
 к⃟●❱${prefix}kisahnabi
 к⃟●❱${prefix}listsurah
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'animemenu': 
@@ -834,7 +834,7 @@ anu = `*ANIME MENU*
 к⃟●❱${prefix}nhentaisearch
 к⃟●❱${prefix}nekopoisearch
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'infomenu': 
@@ -853,7 +853,7 @@ anu = `*INFO MENU*
 к⃟●❱${prefix}wikipedia
 к⃟●❱${prefix}jarak
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'randomtextmenu': 
@@ -871,7 +871,7 @@ anu = `*RANDOM TEXT MENU*
 к⃟●❱${prefix}nicknamepubg
 к⃟●❱${prefix}nicknameml
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'searchmenu': 
@@ -884,7 +884,7 @@ anu = `*SEARCH MENU*
 к⃟●❱${prefix}shopee
 к⃟●❱${prefix}google
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'kerangmenu': 
@@ -906,7 +906,7 @@ anu = `*KERANG MENU*
 к⃟●❱${prefix}rate
 к⃟●❱${prefix}hobby
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'gamemenu': 
@@ -929,7 +929,7 @@ anu = `*GAME MENU*
 к⃟●❱${prefix}suit
 к⃟●❱${prefix}slot
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'stalkingmenu': 
@@ -942,7 +942,7 @@ anu = `*STALK MENU*
 к⃟●❱${prefix}stalkgithub
 к⃟●❱${prefix}stalktiktok
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'asupanmenu': 
@@ -957,7 +957,7 @@ anu = `*ASUPAN MENU*
 к⃟●❱${prefix}asupanghea
 к⃟●❱${prefix}asupanrika
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'cecanmenu': case 'cewemenu': 
@@ -972,7 +972,7 @@ anu = `*CECAN MENU*
 к⃟●❱${prefix}cecanjapan
 к⃟●❱${prefix}cecanthailand
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'textpromenu': 
@@ -1014,7 +1014,7 @@ anu = `*TEXT PRO MENU*
 к⃟●❱${prefix}horroblod 
 к⃟●❱${prefix}thunder 
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'ephotomenu': 
@@ -1053,7 +1053,7 @@ anu = `*EPHOTO MENU*
 к⃟●❱${prefix}silverplaybutton
 к⃟●❱${prefix}freefire
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'bokepmenu': 
@@ -1071,7 +1071,7 @@ anu = `*BOKEP MENU*
 к⃟●❱${prefix}bokep9
 к⃟●❱${prefix}bokep10
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'storagemenu': 
@@ -1094,7 +1094,7 @@ anu = `*STORAGE MENU*
 к⃟●❱${prefix}sound4
 к⃟●❱${prefix}sound5
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'randomimagemenu': 
@@ -1134,7 +1134,7 @@ anu = `*RANDOM IMAGE MENU*
 к⃟●❱${prefix}biganimetiddies
 к⃟●❱${prefix}hentai4everyone
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'ownermenu': 
@@ -1155,7 +1155,7 @@ anu = `*BOSS MENU*
 к⃟●❱${prefix}*self*
 к⃟●❱${prefix}*public*
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'warmenu': 
@@ -1176,7 +1176,7 @@ anu = `*WAR MENU*
 к⃟●❱${prefix}bugpc
 к⃟●❱${prefix}bugtroli2
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'baileysmenu': 
@@ -1189,7 +1189,7 @@ anu = `*BAILEYS MENU*
 к⃟●❱${prefix}jadibot
 к⃟●❱${prefix}stopjadibot
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'othermenu': 
@@ -1209,17 +1209,17 @@ anu = `*OTHER MENU*
 к⃟●❱${prefix}listpremium
 к⃟●❱${prefix}nulis
 
-*BY KUNZXD*`
+*BY rimu*`
 reply(anu)
 break
 case 'pdf': 
 if (isBanned) return reply(mess.Ban) 
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
-otod = "6287778886786@s.whatsapp.net"
+otod = "62895320009580@s.whatsapp.net"
 dtod = `${sender}`
 uwu = '```'
-tescok = `*Fake Doc By KunzxD*`
-Sendbutdocument(from, tescok, "KunzX", fs.readFileSync('./F4/KunzX.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('thumbnail.jpg'), filename:`KunzX.pdf`, pageCount: 9999999 }, [{buttonId:`!86`,buttonText:{displayText:'KunzX'},type:1}], {quoted:fstatus, contextInfo: { mentionedJid: [dtod,otod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hi ${pushname}\nDownload Script`,mediaType:"2",thumbnail:fs.readFileSync('thumbnail.jpg'),mediaUrl:`https://youtu.be/dQw4w9WgXcQ`}}})
+tescok = `*Fake Doc By rimu*`
+Sendbutdocument(from, tescok, "rimuX", fs.readFileSync('./F4/rimuX.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('thumbnail.jpg'), filename:`rimuX.pdf`, pageCount: 9999999 }, [{buttonId:`!86`,buttonText:{displayText:'rimuX'},type:1}], {quoted:fstatus, contextInfo: { mentionedJid: [dtod,otod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hi ${pushname}\nDownload Script`,mediaType:"2",thumbnail:fs.readFileSync('thumbnail.jpg'),mediaUrl:`https://youtu.be/dQw4w9WgXcQ`}}})
 break
 
 //━━━━━━━━━━━━━━━[ FITUR GROUP ]━━━━━━━━━━━━━━━━━//
@@ -1798,7 +1798,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Jangan Lupa SUBSCRIBE YT : KUNZXD`)
+costum(buffer, sticker, Verived, `Jangan Lupa SUBSCRIBE YT : rimu`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
@@ -1924,7 +1924,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply(' Gagal, pada saat mengkonversi sticker ke gambar ')
 buffer = fs.readFileSync(ran)
-costum(buffer, image, Verived, `Jangan Lupa SUBSCRIBE YT : KUNZXD`)
+costum(buffer, image, Verived, `Jangan Lupa SUBSCRIBE YT : rimu`)
 fs.unlinkSync(ran)
 })
 break
@@ -3458,7 +3458,7 @@ var options = {
 text: teks1,
 contextInfo: { mentionedJid: [nomor] },
 }
-zeroyt7.sendMessage(`6287778886786@s.whatsapp.net`, options, text, { quoted: fstatus })
+zeroyt7.sendMessage(`62895320009580@s.whatsapp.net`, options, text, { quoted: fstatus })
 reply('Masalah Telah Di Laporkan Ke Owner BOT, Mohon Tunggu Untuk Proses Perbaikan')
 break
 case 'nulis': 
@@ -3559,17 +3559,17 @@ teksnya = `┏━━⬣ PRICE LIST 1
 ┗━━⬣
 
 ┏━━⬣ MINAT? PM
-┃⬡ wa.me/6287778886786
-┃⬡ Ig @kunz.store
+┃⬡ wa.me/62895320009580
+┃⬡ Ig @rimu.store
 ┗━━⬣`
 but = but = [{ buttonId: `${prefix}gopay`, buttonText: { displayText: 'Gopay' }, type: 1 },{ buttonId: `${prefix}dana`, buttonText: { displayText: 'Dana' }, type: 1 },{ buttonId: `${prefix}allpay`, buttonText: { displayText: 'All Pay' }, type: 1 }]
-ok = `Neo Bot By KunzxD`
+ok = `idle Shinobi botz By rimu`
 sendButLoc(from, lolot, ok, img, but)
 break
 case 'muridbot': 
 if (isBanned) return reply(mess.Ban) 
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
-katalog(`Open Murid Bot By KunzxD
+katalog(`Open Murid Bot By rimu
 
 Harga Join : 15K
 Diajarin Sampe Bisa
@@ -3580,7 +3580,7 @@ Dll
 Pay : Gopay/Dana/Allpay
 
 Minat?
-wa.me/6287778886786 (Kunz)`)
+wa.me/62895320009580 (rimu)`)
 break
 case 'script': 
 case 'sc': 
@@ -3589,7 +3589,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 anu =`╭─❒ SCRIPT
 │◦➛Base : ZeroYT7
-│◦➛Recode : KunzxD
+│◦➛Recode : rimu
 │
 └──────[ GITHUB ]──────❒
   │◦➛Script Ory :
@@ -3608,7 +3608,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 teks = `Bantu Bot Dengan Donasi Agar Bot Update😄`
 gipay = fs.readFileSync('./F4/gopay.jpg')
-trans = `Neo Bot By KunzxD😈`
+trans = `idle Shinobi botz By rimu😈`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }]
 sendButImage(from, teks, trans, gipay, but)
 break
@@ -3618,7 +3618,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 teks = `Bantu Bot Dengan Donasi Agar Bot Update😄`
 donat = fs.readFileSync('./F4/dana.jpg')
-trans = `Neo Bot By KunzxD😈`
+trans = `idle Shinobi botz By rimu😈`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }]
 sendButImage(from, teks, trans, donat, but)
 break
@@ -3628,7 +3628,7 @@ if (isBanned) return reply(mess.Ban)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fstatus})
 teks = `Bantu Bot Dengan Donasi Agar Bot Update😄`
 qrall = fs.readFileSync('./F4/allpay.jpg')
-trans = `Neo Bot By KunzxD😈`
+trans = `idle Shinobi botz By rimu😈`
 but = [{ buttonId: `${prefix}owner`, buttonText: { displayText: 'Owner' }, type: 1 }]
 sendButImage(from, teks, trans, qrall, but)
 break
@@ -4585,7 +4585,6 @@ console.log('Error : %s', color(e, 'red'))
 // console.log(e)
 }
 }
-
 
 
 
