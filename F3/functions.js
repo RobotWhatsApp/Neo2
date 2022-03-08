@@ -91,17 +91,30 @@ const getRandom = (ext) => {
 const spinner = { 
   "interval": 120,
   "frames": [
-    "TS",
-    "TSU",
-    "TSUM",
-    "TSUMU",
-    "TSUMUK",
-    "TSUMUKI",
-    "TSUMUKI C",
-    "TSUMUKI CH",
-    "TSUMUKI CHA",
-    "TSUMUKI CHAN",
-    "TSUMUKI CHAN🗿"
+    "🕛A",
+    "🕐AN",
+    "🕑AND",
+    "🕒ANDI",
+    "🕓ANDI G",
+    "🕔ANDI GA",
+    "🕕ANDI GAN",
+    "🕖ANDI GANZ",
+    "🕗ANDI GANZ M",
+    "🕘ANDI GANZ ME",
+    "🕙ANDI GANZ MEN",
+    "🕚ANDI GANZ MENY",
+    "🕛ANDI GANZ MENYA",
+    "🕐ANDI GANZ MENYAM",
+    "🕑ANDI GANZ MENYAMB",
+    "🕒ANDI GANZ MENYAMBU",
+    "🕓ANDI GANZ MENYAMBUN",
+    "🕔ANDI GANZ MENYAMBUNG",
+    "🕕ANDI GANZ MENYAMBUNGK",
+    "🕖ANDI GANZ MENYAMBUNGKA",
+    "🕗ANDI GANZ MENYAMBUNGKAN",
+    "🕘ANDI GANZ MENYAMBUNGKAN.",
+    "🕙ANDI GANZ MENYAMBUNGKAN..",
+    "🕚ANDI GANZ MENYAMBUNGKAN...",
   ]}
 
 let globalSpinner;
@@ -132,7 +145,7 @@ const close = (id, text) => {
 	spins.fail(id, {text: text})
 }
 const banner = 
-CFonts.say('Neo Bot', {
+CFonts.say('Andi botz', {
   font: 'slick',
   align: 'center',
   color: 'blue'
