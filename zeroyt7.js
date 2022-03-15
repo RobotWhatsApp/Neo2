@@ -64,8 +64,8 @@ const simple = require('./F3/simple.js')
 //━━━━━━━━━━━━━━━[ SETTING ]━━━━━━━━━━━━━━━━━//
 
 let botname = '𝐀𝐧𝐝𝐢𝐁𝐨𝐭𝐳' //NAMA BOT
-let zerokey =  '51f28baf60f7b2a953ee16b2' //BIARIN AE:V
-let lolkey = '51f28baf60f7b2a953ee16b2' // FREE APIKEY NYOLONG DARI KURR:v
+let zerokey =  'ZeroYT7' //BIARIN AE:V
+let lolkey = '78bd89cd7b4d6205e3e18061' // FREE APIKEY NYOLONG DARI KURR:v
 let zekskey = 'Nekonimastah' //Ganti Pake Api Lu Sendiri Biar Limitnya Gak Cepet Abis , Login Di zeks.me Untuk Mendapatkan Api Gratis
 let ownername = '𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐳' //NAMA OWNER
 let owner = '6285725220424' // NOMOR OWNER
@@ -76,7 +76,7 @@ let faketeks = `© 𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐳`
 banChats = true; 
 readGc = false; 
 readPc = false;
-autovn = true;
+autovn = false;
 autoketik = false;
 
 let hit_today = []
@@ -186,22 +186,22 @@ const date = d.toLocaleDateString(locale, { day: 'numeric', month: 'long', year:
 const jmn = moment.tz('Asia/Jakarta').format('HH:mm:ss')
 const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
 if(time2 < "23:59:00"){
-var ucapanWaktu = 'Bengi/Malam🌃'
+var ucapanWaktu = '𝑆𝑒𝑙𝑎𝑚𝑎𝑡 𝑀𝑎𝑙𝑎𝑚🌃'
 }
 if(time2 < "19:00:00"){
-var ucapanWaktu = 'Magrib/Petang🌆'
+var ucapanWaktu = '𝑃𝑒𝑡𝑎𝑛𝑔🌆'
 }
 if(time2 < "18:00:00"){
-var ucapanWaktu = 'Sore🌅'
+var ucapanWaktu = '𝑆𝑒𝑙𝑎𝑚𝑎𝑡 𝑆𝑜𝑟𝑒🌅'
 }
 if(time2 < "15:00:00"){
-var ucapanWaktu = 'Awan/Siang🏙'
+var ucapanWaktu = '𝑆𝑒𝑙𝑎𝑚𝑎𝑡 𝑆𝑖𝑎𝑛𝑔🏙'
 }
 if(time2 < "11:00:00"){
-var ucapanWaktu = 'Esuk/Pagi🌁'
+var ucapanWaktu = '𝑆𝑒𝑙𝑎𝑚𝑎𝑡 𝑃𝑎𝑔𝑖🌁'
 }
 if(time2 < "05:00:00"){
-var ucapanWaktu = 'Bengi/Malam🌉'
+var ucapanWaktu = '𝑆𝑒𝑙𝑎𝑚𝑎𝑡 𝑀𝑎𝑙𝑎𝑚🌉'
 }
 var ase = new Date();
 var jamss = ase.getHours();
@@ -284,7 +284,7 @@ var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
 var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var secondss = Math.floor((distance % (1000 * 60)) / 1000);
-ultahgua = `${dayss}Hari ${hourss}Jam ${minutess}Menit ┃╚━❖ ${secondss}Detik`
+ultahgua = `${dayss}Hari ${hourss}Jam ${minutess}Menit\n┃╚━❖ ${secondss}Detik`
 
 countDownDate = new Date("2023-01-01").getTime();
 var now = new Date().getTime();
@@ -293,7 +293,7 @@ var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
 var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var secondss = Math.floor((distance % (1000 * 60)) / 1000);
-newYear = `${dayss}Hari ${hourss}Jam ${minutess}Menit ┃╚━❖ ${secondss}Detik`
+newYear = `${dayss}Hari ${hourss}Jam ${minutess}Menit\n┃╚━❖ ${secondss}Detik`
 
 countDownDate = new Date("2022-07-09").getTime();
 var now = new Date().getTime();
@@ -302,7 +302,7 @@ var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
 var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var secondss = Math.floor((distance % (1000 * 60)) / 1000);
-iduladha = `${dayss}Hari ${hourss}Jam ${minutess}Menit ┃╚━❖ ${secondss}Detik`
+iduladha = `${dayss}Hari ${hourss}Jam ${minutess}Menit\n┃╚━❖ ${secondss}Detik`
 
 countDownDate = new Date("2022-04-02").getTime();
 var now = new Date().getTime();
@@ -311,7 +311,7 @@ var dayss = Math.floor(distance / (1000 * 60 * 60 * 24));
 var hourss = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
 var minutess = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
 var secondss = Math.floor((distance % (1000 * 60)) / 1000);
-Ramadhan = `${dayss}Hari ${hourss}Jam ${minutess}Menit ┃╚━❖ ${secondss}Detik`
+Ramadhan = `${dayss}Hari ${hourss}Jam ${minutess}Menit\n┃╚━❖ ${secondss}Detik`
 var ampun = await zeroyt7.chats.array.filter(v => v.jid.endsWith('g.us'))
 ampun.map( async ({ jid }) => {
 if (readGc === false) return
@@ -339,7 +339,7 @@ error: {
 stick: '[ ⚠︎ ] 𝐆𝐚𝐠𝐚𝐥 𝐦𝐞𝐧𝐠𝐡𝐮𝐛𝐮𝐧𝐠𝐤𝐚𝐧 𝐤𝐞 𝐬𝐞𝐫𝐯𝐞𝐫',
 Iv: '[ ⚠︎ ] 𝐋𝐢𝐧𝐤 𝐄𝐫𝐫𝐨𝐫 (404)',
 api: '[ ⚠︎ ] 𝐒𝐞𝐫𝐯𝐞𝐫 𝐓𝐢𝐝𝐚𝐤 𝐕𝐚𝐥𝐢𝐝',
-Ban: '*[ ⚠︎ ] 𝐌𝐚𝐚𝐟 𝐓𝐚𝐩𝐢 𝐊𝐚𝐦𝐮 𝐒𝐮𝐝𝐚𝐡 𝐓𝐞𝐫𝐛𝐚𝐧𝐧𝐞𝐝 𝐒𝐢𝐥𝐚𝐡𝐤𝐚𝐧 𝐌𝐢𝐧𝐭𝐚 𝐁𝐨𝐬 𝐆𝐮𝐚 (𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐳) 𝐔𝐧𝐭𝐮𝐤 𝐌𝐞𝐦𝐛𝐮𝐤𝐚𝐧𝐲𝐚*'
+Ban: '[ ⚠︎ ] 𝐍𝐨𝐦𝐨𝐫 𝐊𝐚𝐦𝐮 𝐒𝐮𝐝𝐚𝐡 *𝐃𝐢𝐛𝐚𝐧𝐧𝐞𝐝!*'
 },
 only: {
 owner: '[ ⚠︎ ] 𝐏𝐞𝐫𝐢𝐧𝐭𝐚𝐡 𝐈𝐧𝐢 𝐇𝐚𝐧𝐲𝐚 𝐁𝐢𝐬𝐚 𝐃𝐢𝐠𝐮𝐧𝐚𝐤𝐚𝐧 𝐎𝐥𝐞𝐡 𝐀𝐧𝐝𝐢𝐆𝐚𝐧𝐳',
@@ -585,6 +585,118 @@ setTimeout(() => {
 zeroyt7.groupRemove(from, [kic]).catch((e) => { reply(`BOT HARUS JADI ADMIN`) })
 }, 0)
 }
+if (budy.includes("andi")) {
+lolot = `Iya ada apa panggil gua :v`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: '☕' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("Bot")) {
+lolot = `Iya ada apa panggil gua :v`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: '☕' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("Assalamualaikum")) {
+lolot = `*Wa'alaikumsalam ${pushname}*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: '☕' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("bct")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("memek")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("kontol")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("jembut")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("asu")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("anj")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("turuk")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("babi")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("bacot")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("kunyuk")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("anjir")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("anjing")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
+if (budy.includes("titit")) {
+lolot = `*Jangan toxic ${pushname} inget tuhan*`
+img = fs.readFileSync('thumbnail.jpg')
+ok = `© AndiGans`
+but = [{ buttonId: `ㅤ`, buttonText: { displayText: 'OK' }, type: 1 }]
+sendButLoc(from, lolot, ok, img, but)
+}
 if (budy.length > 3500) {
 if (!isGroup) return
 if (!isAntiVirtex) return
@@ -624,7 +736,6 @@ zeroyt7.sendMessage(from, teks, text, {quoted: mek})
 break
 case 'menu': 
 if (isBanned) return reply(mess.Ban) 
-
 timestamp = speed();
 latensi = speed() - timestamp;
 run = process.uptime();
@@ -635,29 +746,32 @@ ok = `
 ╠━╣  ┃   ┃   ┃   ┃   ┃
 ╩   ╩  ╩   ╩   ═━╝   ╩
 
-╔━━⬣《TIME INDONESIA》
-┃╔━❖ Date : ${date}
-┃╠━❖ Wib : ${Wib}
-┃╚━❖ Wita : ${Wita}
-╚━━❖ Wit : ${Wit}
+╔━━⬣《𝗧𝗜𝗠𝗘 𝗜𝗡𝗗𝗢𝗡𝗘𝗦𝗜𝗔》
+┃╔━❖ 𝘿𝙖𝙩𝙚 : ${date}
+┃╠━❖ 𝙒𝙞𝙗 : ${Wib}
+┃╚━❖ 𝙒𝙞𝙩𝙖 : ${Wita}
+╚━━❖ 𝙒𝙞𝙩 : ${Wit}
 
-╔━━⬣《USER INFO》
-┃╔━❖ Name : *${pushname}*
-┃╠━❖ Bio : *${p1 ? `${p1.status}` : '-'}*
-┃╠━❖ Nomor :
+╔━━⬣《𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢》
+┃╔━❖ 𝙉𝙖𝙢𝙚 : *${pushname}*
+┃╠━❖ 𝘽𝙞𝙤 : *${p1 ? `${p1.status}` : '-'}*
+┃╠━❖ 𝙉𝙤𝙢𝙤𝙧 :
 ┃╚━❖ *wa.me/${sender.split("@")[0]}*
-╚━━❖ Status : *${isOwner ? 'Owner' :  'User'}*
+╚━━❖ 𝙎𝙩𝙖𝙩𝙪𝙨 : *${isOwner ? 'Owner' :  'User'}*
 
-╔━━⬣《ANDI BOTZ INFO》
-┃╔━❖ Bot Name : *${botname}*
-┃╠━❖ Name : *${ownername}*
-┃╠━❖ Prefix : 「${prefix}」
-┃╠━❖ Mode : *${banChats ? 'PUBLIC' : 'SELF'}*
-┃╠━❖ Lib : *Baileys*
-┃╠━❖ Calender : *${date}*
-┃╠━❖ Time : *${jmn}*
-┃╚━❖ Speed : *${latensi.toFixed(4)} second*
-╚━━❖ Runtime : *${kyun(run)}*
+╔━━⬣《𝗥𝗢𝗕𝗢𝗧 𝗜𝗡𝗙𝗢》
+┃╔━❖ 𝘽𝙤𝙩 𝙉𝙖𝙢𝙚 : *${botname}*
+┃╠━❖ 𝙉𝙖𝙢𝙚 𝙋𝙚𝙢𝙗𝙪𝙖𝙩 : *${ownername}*
+┃╠━❖ 𝙋𝙚𝙛𝙞𝙭 : 「${prefix}」
+┃╠━❖ 𝙈𝙤𝙙𝙚 : *${banChats ? 'PUBLIC' : 'SELF'}*
+┃╠━❖ 𝙇𝙞𝙗 : *Baileys*
+┃╠━❖ 𝘾𝙖𝙡𝙚𝙣𝙙𝙚𝙧 : *${date}*
+┃╠━❖ 𝙏𝙞𝙢𝙚 : *${jmn}*
+┃╚━❖ 𝙎𝙥𝙚𝙚𝙙 : *${latensi.toFixed(4)} second*
+╚━━❖ 𝙍𝙪𝙣𝙩𝙞𝙢𝙚 : *${kyun(run)}*
+
+𝗞𝗲𝘁𝗶𝗸 𝗞𝗮𝘁𝗮 𝗗𝗶𝗯𝗮𝘄𝗮𝗵 𝗜𝗻𝗶
+𝗖𝗼𝗻𝘁𝗼𝗵 ".𝗙𝗿𝗲𝗲𝗳𝗶𝗿𝗲"
 
 ╔━━❖${p2}${bold}groupmenu${bold}
 ┃╔━❖${p2}${bold}stickermenu${bold}
@@ -675,7 +789,6 @@ ok = `
 ┃╠━❖${p2}${bold}cecanmenu${bold}
 ┃╠━❖${p2}${bold}textpromenu${bold}
 ┃╠━❖${p2}${bold}ephotomenu${bold}
-┃╠━❖${p2}${bold}bokepmenu${bold}
 ┃╠━❖${p2}${bold}islammenu${bold}
 ┃╠━❖${p2}${bold}storagemenu${bold}
 ┃╠━❖${p2}${bold}virusmenu${bold}
@@ -684,7 +797,7 @@ ok = `
 ╚━━❖${p2}${bold}baileysmenu${bold}
 
 `
-but = [{ buttonId: `.allmenu`, buttonText: { displayText: '𝐀𝐋𝐋 𝐌𝐄𝐍𝐔' }, type: 1 },{ buttonId: `.owner`, buttonText: { displayText: '𝐁𝐎𝐒 𝐆𝐔𝐀' }, type: 1 },{ buttonId: `.waktu`, buttonText: { displayText: '𝐖𝐀𝐊𝐓𝐔' }, type: 1 }]
+but = [{ buttonId: `#allmenu`, buttonText: { displayText: 'ALL MENU' }, type: 1 },{ buttonId: `#owner`, buttonText: { displayText: 'BOS GUA' }, type: 1 },{ buttonId: `#waktu`, buttonText: { displayText: 'WAKTU' }, type: 1 }]
 sendButLoc(from, lolot, ok, img, but)
 break
 case 'allmenu': 
@@ -693,63 +806,60 @@ if (isBanned) return reply(mess.Ban)
 
 timestamp = speed();
 latensi = speed() - timestamp;
-ok = `╔━━⬣《ANDI BOTZ INFO》
-┃╔━❖ *Bot Name* : *${botname}*
-┃╠━❖ *Name* : *${ownername}*
-┃╠━❖ *Prefix* : 「${prefix}」
-┃╠━❖ *Mode* : *${banChats ? 'PUBLIC' : 'SELF'}*
-┃╠━❖ *Lib* : *Baileys*
-┃╠━❖ *Hit Today* : *${hit_today.length}*
-┃╠━❖ *Hit All* : *${hitall}*
-┃╠━❖ *Calender* : *${date}*
-┃╠━❖ *Time* : *${jmn}*
-┃╚━❖ *Speed* : *${latensi.toFixed(4)} second*
-╚━━❖ *Runtime* : *${kyun(process.uptime())}*
+ok = `╔━━⬣「𝗥𝗢𝗕𝗢𝗧 𝗜𝗡𝗙𝗢」
+┃╔━❖ 𝙍𝙤𝙗𝙤𝙩 𝙉𝙖𝙢𝙚 : *${botname}*
+┃╠━❖ 𝙉𝙖𝙢𝙚 𝙋𝙚𝙢𝙗𝙪𝙖𝙩 : *${ownername}*
+┃╠━❖ 𝙋𝙧𝙚𝙛𝙞𝙭 : 「${prefix}」
+┃╠━❖ 𝙈𝙤𝙙𝙚 : *${banChats ? 'PUBLIC' : 'SELF'}*
+┃╠━❖ 𝙇𝙞𝙗 : *Baileys*
+┃╠━❖ 𝙃𝙞𝙩 𝙏𝙤𝙙𝙖𝙮 : *${hit_today.length}*
+┃╠━❖ 𝙃𝙞𝙩 𝘼𝙡𝙡 : *${hitall}*
+┃╠━❖ 𝘾𝙖𝙡𝙚𝙣𝙙𝙚𝙧 : *${date}*
+┃╠━❖ 𝙏𝙞𝙢𝙚 : *${jmn}*
+┃╚━❖ 𝙎𝙥𝙚𝙚𝙙 : *${latensi.toFixed(4)} second*
+╚━━❖ 𝙍𝙪𝙣𝙩𝙞𝙢𝙚 : *${kyun(process.uptime())}*
 
-╔━━⬣《USER INFO》
-┃╔━❖ *Name* : *${pushname}*
-┃╠━❖ *Bio* : *${p1 ? `${p1.status}` : '-'}*
-┃╠━❖ *Api* :
+╔━━⬣「𝗨𝗦𝗘𝗥 𝗜𝗡𝗙𝗢」
+┃╔━❖ 𝙉𝙖𝙢𝙚 : *${pushname}*
+┃╠━❖ 𝘽𝙞𝙤 : *${p1 ? `${p1.status}` : '-'}*
+┃╠━❖ 𝙒𝙝𝙖𝙩𝙨𝙖𝙥𝙥 :
 ┃╚━❖ *wa.me/${sender.split("@")[0]}*
-╚━━❖ *Status* : *${isOwner ? 'Owner' : isPremium ? 'Premium User' : 'User'}*
+╚━━❖ 𝙎𝙩𝙖𝙩𝙪𝙨 : *${isOwner ? 'Owner' : isPremium ? 'Premium User' : 'User'}*
 
-╔━━⬣《TIME INDONESIA》
-┃╔━❖ *Date* : *${date}*
-┃╠━❖ *Wib* : *${Wib}*
-┃╚━❖ *Wita* : *${Wita}*
-╚━━❖ *Wit* : *${Wit}*
+╔━━⬣「𝗧𝗜𝗠𝗘 𝗜𝗡𝗗𝗢𝗡𝗘𝗦𝗜𝗔」
+┃╔━❖ 𝘿𝙖𝙩𝙚 : *${date}*
+┃╠━❖ 𝙒𝙞𝙗 : *${Wib}*
+┃╚━❖ 𝙒𝙞𝙩𝙖 : *${Wita}*
+╚━━❖ 𝙒𝙞𝙩 : *${Wit}*
 
-╔━⬣《Menuju Tahun Baru》
+╔━⬣「𝗧𝗔𝗛𝗨𝗡 𝗕𝗔𝗥𝗨」
 ┃╔━❖ *${newYear}*
-╠━⬣《Menuju Ramadhan》
+┃
+╠━⬣「𝗥𝗔𝗠𝗔𝗗𝗛𝗔𝗡」
 ┃╔━❖ *${Ramadhan}*
-╠━⬣《Menuju Ultah Gua》
+┃
+╠━⬣「𝗨𝗟𝗧𝗔𝗛」
 ┃╔━❖ *${ultahgua}*
-╠━⬣《Menuju Idul Adha》
+┃
+╠━⬣「𝗜𝗗𝗨𝗟 𝗔𝗗𝗛𝗔」
 ┃╔━❖ *${iduladha}*
+┃
 ╚━━━━━━━━━━━━━⬣
 
-*VIRUS MENU*
+𝙆𝙚𝙩𝙞𝙠 𝙆𝙖𝙩𝙖 𝘿𝙞𝙗𝙖𝙬𝙖𝙝 𝙄𝙣𝙞
+𝘾𝙤𝙣𝙩𝙤𝙝 ".𝙁𝙧𝙚𝙚𝙛𝙞𝙧𝙚"
 
-╔━━❖${prefix}virtex1
-┃╔━❖${prefix}virtex2
-┃╠━❖${prefix}virtex3
-┃╠━❖${prefix}virtex4
-┃╠━❖${prefix}virtex5
-┃╠━❖${prefix}virtex6
-┃╠━❖${prefix}virtex7
-┃╠━❖${prefix}virtex8
-┃╠━❖${prefix}vipi
-┃╠━❖${prefix}buglokasi
-┃╚━❖${prefix}bugpc
-╚━━❖${prefix}bugtroli2
+𝙈𝙖𝙪 𝙁𝙞𝙩𝙪𝙧 𝘽𝙖𝙧𝙪? 𝘾𝙝𝙖𝙩 𝘿𝙞𝙖
+_wa.me/6285643115199_
+_wa.me/6285725220424_
 
-Terdapat fitur khusus yang
-hanya diketahui oleh AndiGans
-karena fitur tersebut berbahaya
-🗿
+𝗙𝗜𝗧𝗨𝗥 𝗕𝗔𝗥𝗨
 
-*GROUP MENU*
+╔━━❖${prefix}futuristic-technology
+┃╠━❖${prefix}katabijak
+╚━━❖${prefix}neon-devil-wings
+
+𝗙𝗜𝗧𝗨𝗥 𝗚𝗥𝗨𝗣
 
 ╔━━❖${prefix}antilink 1/0
 ┃╔━❖${prefix}welcome 1/0 
@@ -763,9 +873,9 @@ karena fitur tersebut berbahaya
 ┃╠━❖${prefix}copotadmin
 ┃╠━❖${prefix}add
 ┃╠━❖${prefix}kick
-┃╠━❖${prefix}setppgc
-┃╠━❖${prefix}setdescgc
-┃╠━❖${prefix}setnamegc
+┃╠━❖${prefix}setpp
+┃╠━❖${prefix}setdesc
+┃╠━❖${prefix}setname
 ┃╠━❖${prefix}hidetag
 ┃╠━❖${prefix}hidetag20
 ┃╠━❖${prefix}totag
@@ -779,7 +889,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}resetlink
 ╚━━❖${prefix}jadian
 
-*STICKER MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗦𝗧𝗜𝗖𝗞𝗘𝗥
 
 ╔━━❖${prefix}ttp
 ┃╔━❖${prefix}attp
@@ -789,7 +899,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}anime
 ╚━━❖${prefix}gawgura
 
-*CONVERT MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗖𝗢𝗡𝗩𝗘𝗥𝗧
 
 ╔━━❖${prefix}tomp3
 ┃╔━❖${prefix}tovideo
@@ -799,20 +909,19 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}shorturl
 ╚━━❖${prefix}cuttly
 
-*RANDOM MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗥𝗔𝗡𝗗𝗢𝗠
 
 ╔━━❖${prefix}meme
 ┃╠━❖${prefix}memeindo
 ╚━━❖${prefix}darkjoke
 
-*DOWNLOAD MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗗𝗢𝗪𝗡𝗟𝗢𝗔𝗗
 
 ╔━━❖${prefix}play
-┃╔━❖${prefix}ytsearch
-┃╚━❖${prefix}tiktokmusic
+┃╠━❖${prefix}tiktokmusic
 ╚━━❖${prefix}pinterest
 
-*ISLAM MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗜𝗦𝗟𝗔𝗠
 
 ╔━━❖${prefix}alquran
 ┃╔━❖${prefix}asmaulhusna
@@ -821,7 +930,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}kisahnabi
 ╚━━❖${prefix}listsurah
 
-*ANIME MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗔𝗡𝗜𝗠𝗘
 
 ╔━━❖${prefix}character
 ┃╔━❖${prefix}manga
@@ -831,7 +940,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}nhentaisearch
 ╚━━❖${prefix}nekopoisearch
 
-*INFO MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗜𝗡𝗙𝗢
 
 ╔━━❖${prefix}kbbi
 ┃╔━❖${prefix}infogempa
@@ -843,7 +952,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}wikipedia
 ╚━━❖${prefix}jarak
 
-*RANDOM TEXT MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗧𝗘𝗫𝗧
 
 ╔━━❖${prefix}quotes
 ┃╔━❖${prefix}quotesanime
@@ -855,7 +964,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}nicknamepubg
 ╚━━❖${prefix}nicknameml
 
-*SEARCH MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗖𝗔𝗥𝗜
 
 ╔━━❖${prefix}gimage
 ┃╔━❖${prefix}wallpapersearch
@@ -863,7 +972,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}shopee
 ╚━━❖${prefix}google
 
-*KERANG MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗚𝗔𝗕𝗨𝗧
 
 ╔━━❖${prefix}tebakumur
 ┃╔━❖${prefix}artinama
@@ -879,7 +988,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}rate
 ╚━━❖${prefix}hobby
 
-*GAME MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗚𝗔𝗠𝗘
 
 ╔━━❖${prefix}tictactoe @tag
 ┃╔━❖${prefix}delsesittt
@@ -895,13 +1004,13 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}suit
 ╚━━❖${prefix}slot
 
-*STALK MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗦𝗧𝗔𝗟𝗞
 
 ╔━━❖${prefix}stalkig
 ┃╠━❖${prefix}stalkgithub
 ╚━━❖${prefix}stalktiktok
 
-*ASUPAN MENU*
+𝗧𝗜𝗞𝗧𝗢𝗞 𝗩𝗜𝗗𝗘𝗢
 
 ╔━━❖${prefix}asupan
 ┃╔━❖${prefix}asupancecan
@@ -911,7 +1020,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}asupanghea
 ╚━━❖${prefix}asupanrika
 
-*CECAN MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗖𝗘𝗖𝗔𝗡
 
 ╔━━❖${prefix}cecanvietnam
 ┃╔━❖${prefix}cecanmalaysia
@@ -920,7 +1029,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}cecanjapan
 ╚━━❖${prefix}cecanthailand
 
-*TEXT PRO MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗧𝗘𝗫𝗧 𝗟𝗢𝗚𝗢
 
 ╔━━❖${prefix}blackpink 
 ┃╔━❖${prefix}neon 
@@ -933,7 +1042,7 @@ karena fitur tersebut berbahaya
 ┃╠━❖${prefix}metaldrak 
 ┃╠━❖${prefix}neonlight 
 ┃╠━❖${prefix}holographik
-┃╠━❖${prefix}1917 
+┃╠━❖${prefix}text1917 
 ┃╠━❖${prefix}minion 
 ┃╠━❖${prefix}deluxesilver 
 ┃╠━❖${prefix}newyearcard 
@@ -955,7 +1064,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}horroblod 
 ╚━━❖${prefix}thunder 
 
-*EPHOTO MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗘𝗣𝗛𝗢𝗧𝗢
 
 ╔━━❖${prefix}wetglass
 ┃╔━❖${prefix}multicolor3d
@@ -988,7 +1097,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}silverplaybutton
 ╚━━❖${prefix}freefire
 
-*STORAGE MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗖𝗟𝗢𝗨𝗗
 
 ╔━━❖${prefix}addimage
 ┃╔━❖${prefix}listimage
@@ -1005,7 +1114,7 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}sound4
 ╚━━❖${prefix}sound5
 
-*RANDOM IMAGE MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗚𝗔𝗠𝗕𝗔𝗥
 
 ╔━━❖${prefix}art
 ┃╔━❖${prefix}bts
@@ -1038,32 +1147,32 @@ karena fitur tersebut berbahaya
 ┃╚━❖${prefix}biganimetiddies
 ╚━━❖${prefix}hentai4everyone
 
-*BOSS MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗞𝗛𝗨𝗦𝗨𝗦
 
-╔━━❖${prefix}*bc*
-┃╔━❖${prefix}*bcgc*
-┃╠━❖${prefix}*tobc*
-┃╠━❖${prefix}*premium add*
-┃╠━❖${prefix}*premium del*
-┃╠━❖${prefix}*ban*
-┃╠━❖${prefix}*unban*
-┃╠━❖${prefix}*setname*
-┃╠━❖${prefix}*setbio*
-┃╠━❖${prefix}*setpp*
-┃╠━❖${prefix}*q*
-┃╠━❖${prefix}*clearall*
-┃╠━❖${prefix}*setthumb*
-┃╚━❖${prefix}*self*
-╚━━❖${prefix}*public*
+╔━━❖${prefix}bc
+┃╔━❖${prefix}bcgc
+┃╠━❖${prefix}tobc
+┃╠━❖${prefix}premium add
+┃╠━❖${prefix}premium del
+┃╠━❖${prefix}ban
+┃╠━❖${prefix}unban
+┃╠━❖${prefix}setnama
+┃╠━❖${prefix}setbio
+┃╠━❖${prefix}setfp
+┃╠━❖${prefix}q
+┃╠━❖${prefix}clearall
+┃╠━❖${prefix}setthumb
+┃╚━❖${prefix}self
+╚━━❖${prefix}public
 
-*BAILEYS MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗕𝗔𝗜𝗟𝗘𝗬𝗦
 
 ╔━━❖x 
 ┃╔━❖>  
 ┃╚━❖${prefix}jadibot
 ╚━━❖${prefix}stopjadibot
 
-*OTHER MENU*
+𝗙𝗜𝗧𝗨𝗥 𝗢𝗧𝗛𝗘𝗥
 
 ╔━━❖${prefix}ultah
 ┃╔━❖${prefix}tag 62xxx
@@ -1078,13 +1187,13 @@ karena fitur tersebut berbahaya
 ╚━━❖${prefix}nulis
 
 
-《THANKS TO》
+《𝗧𝗛𝗔𝗡𝗞𝗦 𝗧𝗢》
 
 *@${Verived.split("@")[0]}*
 *@${zer.split("@")[0]}*
 *@${kuz.split("@")[0]}*`
-but = [{ buttonId: `.botstat`, buttonText: { displayText: '𝐈𝐍𝐅𝐎 𝐁𝐎𝐓' }, type: 1 },{ buttonId: `.owner`, buttonText: { displayText: '𝐁𝐎𝐒 𝐆𝐔𝐀' }, type: 1 }]
-zeroyt7.sendMessage(from, { contentText: `${ok}`, footerText: `_Andi Botz By AndiGanz_`, buttons : [{ buttonId: `.botstat`, buttonText: { displayText: '𝐈𝐍𝐅𝐎 𝐁𝐎𝐓' }, type: 1 },{ buttonId: `.owner`, buttonText: { displayText: '𝐁𝐎𝐒 𝐆𝐔𝐀' }, type: 1 }], 
+but = [{ buttonId: `#botstat`, buttonText: { displayText: '𝐈𝐍𝐅𝐎 𝐁𝐎𝐓' }, type: 1 },{ buttonId: `#owner`, buttonText: { displayText: '𝐁𝐎𝐒 𝐆𝐔𝐀' }, type: 1 }]
+zeroyt7.sendMessage(from, { contentText: `*${ucapanWaktu} ${pushname}*`, footerText: `${ok}`, buttons : [{ buttonId: `#botstat`, buttonText: { displayText: '𝐈𝐍𝐅𝐎 𝐁𝐎𝐓' }, type: 1 },{ buttonId: `#owner`, buttonText: { displayText: '𝐁𝐎𝐒 𝐆𝐔𝐀' }, type: 1 }], 
 headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '',
 jpegThumbnail: fs.readFileSync("thumbnail.jpg"), 
 contextInfo: {mentionedJid: [sender, Verived, zer, kuz + "@s.whatsapp.net"]}}}, 'buttonsMessage')
@@ -1181,8 +1290,7 @@ if (isBanned) return reply(mess.Ban)
 anu = `*DOWNLOAD MENU*
 
 ╔━━❖${prefix}play
-┃╔━❖${prefix}ytsearch
-┃╚━❖${prefix}tiktokmusic
+┃╠━❖${prefix}tiktokmusic
 ╚━━❖${prefix}pinterest
 
 *BY AndiGanz*`
@@ -1528,21 +1636,21 @@ if (isBanned) return reply(mess.Ban)
 
 anu = `*BOSS MENU*
 
-╔━━❖${prefix}*bc*
-┃╔━❖${prefix}*bcgc*
-┃╠━❖${prefix}*tobc*
-┃╠━❖${prefix}*premium add*
-┃╠━❖${prefix}*premium del*
-┃╠━❖${prefix}*ban*
-┃╠━❖${prefix}*unban*
-┃╠━❖${prefix}*setname*
-┃╠━❖${prefix}*setbio*
-┃╠━❖${prefix}*setpp*
-┃╠━❖${prefix}*q*
-┃╠━❖${prefix}*clearall*
-┃╠━❖${prefix}*setthumb*
-┃╚━❖${prefix}*self*
-╚━━❖${prefix}*public*
+╔━━❖${prefix}bc
+┃╔━❖${prefix}bcgc
+┃╠━❖${prefix}tobc
+┃╠━❖${prefix}premium add
+┃╠━❖${prefix}premium del
+┃╠━❖${prefix}ban
+┃╠━❖${prefix}unban
+┃╠━❖${prefix}setnama
+┃╠━❖${prefix}setbio
+┃╠━❖${prefix}setfp
+┃╠━❖${prefix}q
+┃╠━❖${prefix}clearall
+┃╠━❖${prefix}setthumb
+┃╚━❖${prefix}self
+╚━━❖${prefix}public
 
 *BY AndiGanz*`
 reply(anu)
@@ -1612,7 +1720,7 @@ otod = "6285725220424@s.whatsapp.net"
 dtod = `${sender}`
 uwu = '```'
 tescok = `*Fake Doc By AndiGanz*`
-Sendbutdocument(from, tescok, "AndiX", fs.readFileSync('./F4/AndiX.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('thumbnail.jpg'), filename:`AndiGanzX.pdf`, pageCount: 9999999 }, [{buttonId:`!86`,buttonText:{displayText:'AndiGanzX'},type:1}], {quoted:fstatus, contextInfo: { mentionedJid: [dtod,otod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hi ${pushname}\nDownload Script`,mediaType:"2",thumbnail:fs.readFileSync('thumbnail.jpg'),mediaUrl:`https://youtu.be/dQw4w9WgXcQ`}}})
+Sendbutdocument(from, tescok, "AndiX", fs.readFileSync('./F4/AndiX.pdf'), {mimetype:Mimetype.pdf, thumbnail:fs.readFileSync('thumbnail.jpg'), filename:`AndiGanzX.pdf`, pageCount: 9999999 }, [{buttonId:`!86`,buttonText:{displayText:'AndiGanzX'},type:1}], {quoted:fstatus, contextInfo: { mentionedJid: [dtod,otod], forwardingScore: 508, isForwarded: true, externalAdReply:{title:`Hi ${pushname}\nDownload Script`,mediaType:"2",thumbnail:fs.readFileSync('thumbnail.jpg'),mediaUrl:`https://youtu.be/dQw4w9gXcQ`}}})
 break
 
 //━━━━━━━━━━━━━━━[ FITUR GROUP ]━━━━━━━━━━━━━━━━━//
@@ -2029,7 +2137,7 @@ members_id.push(mem.jid)
 }
 mentions(teks, members_id, true)
 break
-case 'setnamegc': 
+case 'setname': 
 if (isBanned) return reply(mess.Ban) 
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
@@ -2037,7 +2145,7 @@ if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 zeroyt7.groupUpdateSubject(from, `${body.slice(9)}`)
 zeroyt7.sendMessage(from, `\`\`\`✓Sukses Mengganti Nama Group Menjadi\`\`\` *${body.slice(9)}*`, text, { quoted: fstatus })
 break
-case 'setdescgc': 
+case 'setdesc': 
 if (isBanned) return reply(mess.Ban) 
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
@@ -2045,7 +2153,7 @@ if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 zeroyt7.groupUpdateDescription(from, `${body.slice(9)}`)
 zeroyt7.sendMessage(from, `\`\`\`✓Sukses Mengganti Deskripsi Group\`\`\` *${groupMetadata.subject}* Menjadi: *${body.slice(9)}*`, text, { quoted: fstatus })
 break
-case 'setppgc': 
+case 'setpp': 
 if (isBanned) return reply(mess.Ban) 
 if (!isGroup) return reply(mess.only.group)
 if (!isGroupAdmins) return reply(mess.only.admin)
@@ -2058,7 +2166,6 @@ break
 case 'hidetag': 
 if (isBanned) return reply(mess.Ban) 
 if (!isGroup) return reply(mess.only.group)
-if (!isGroupAdmins) return reply(mess.only.admin)
 if (!isBotGroupAdmins) return reply(mess.only.Badmin)
 var value = body.slice(9)
 var group = await zeroyt7.groupMetadata(from)
@@ -2169,7 +2276,7 @@ reply(mess.error.stick)
 .on('end', function () {
 console.log('Finish')
 buffer = fs.readFileSync(ran)
-costum(buffer, sticker, Verived, `Jangan Lupa SUBSCRIBE YT : AndiGanz`)
+costum(buffer, sticker, Verived, `© AndiGanz`)
 fs.unlinkSync(media)
 fs.unlinkSync(ran)
 })
@@ -2290,7 +2397,7 @@ exec(`ffmpeg -i ${media} ${ran}`, (err) => {
 fs.unlinkSync(media)
 if (err) return reply(' Gagal, pada saat mengkonversi sticker ke gambar ')
 buffer = fs.readFileSync(ran)
-costum(buffer, image, Verived, `Jangan Lupa SUBSCRIBE YT : AndiGanz`)
+costum(buffer, image, Verived, `© AndiGanz`)
 fs.unlinkSync(ran)
 })
 break
@@ -2478,7 +2585,7 @@ break
 case 'ytmp3':
 if (args.length == 0) return reply(`Link Nya Mana Tod\nContoh: ${prefix + command} https://www.youtube.com/watch?`)
 ini_link = args[0]
-get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${zerokey}&url=${ini_link}`)
+get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkey}&url=${ini_link}`)
 get_result = get_result.result
 caption = `❖ Title    : *${result.title}*\n`
 caption += `❖ Size     : *${result.size}*`
@@ -2490,7 +2597,7 @@ break
 case 'ytmp4':
 if (args.length == 0) return reply(`Link Nya Mana Tod\nContoh: ${prefix + command} https://www.youtube.com/watch?`)
 ini_link = args[0]
-get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${zerokey}&url=${ini_link}`)
+get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytvideo2?apikey=${lolkey}&url=${ini_link}`)
 get_result = get_result.result
 ini_txt = `${get_result.title} - ${get_result.size}`
 ini_buffer = await getBuffer(get_result.thumbnail)
@@ -2499,28 +2606,12 @@ get_audio = await getBuffer(get_result.link)
 await zeroyt7.sendMessage(from, get_audio, video, { mimetype: 'video/mp4', filename: `${get_result.title}.mp4`, quoted: fstatus })
 break
 case 'tiktoknowm':
-if (args.length == 0) return reply(`Link Nya Mana Tod\nContoh: ${prefix + command} https://www.youtube.com/watch?v=qZIQAk-BUEc`)
+if (args.length == 0) return reply(`Link Nya Mana Tod\nContoh: ${prefix + command} https://www.youtube.com/watch?`)
 ini_url = args[0]
-ini_url = `https://api.lolhuman.xyz/api/tiktok?apikey=${zerokey}&url=${ini_url}`
+ini_url = `https://api.lolhuman.xyz/api/tiktok?apikey=${lolkey}&url=${ini_url}`
 get_result = await fetchJson(ini_url)
 ini_buffer = await getBuffer(get_result.result.link)
 await zeroyt7.sendMessage(from, ini_buffer, video, { quoted: fstatus })
-break
-case 'ytsearch': 
-if (isBanned) return reply(mess.Ban) 
-if (args.length == 0) return reply(`Judul Video Yg Mau Di Cari Tod\nContoh : ${prefix + command} Melukis Senja`)
-query = args.join(" ")
-get_result = await fetchJson(`https://api.lolhuman.xyz/api/ytsearch?apikey=${lolkey}&query=${query}`)
-get_result = get_result.result
-ini_txt = ""
-for (var x of get_result) {
-ini_txt += `Title : ${x.title}\n`
-ini_txt += `Views : ${x.views}\n`
-ini_txt += `Published : ${x.published}\n`
-ini_txt += `Thumbnail : ${x.thumbnail}\n`
-ini_txt += `Link : https://www.youtube.com/watch?v=${x.videoId}\n\n`
-}
-reply(ini_txt)
 break
 case 'tiktokmusic': 
 if (isBanned) return reply(mess.Ban) 
@@ -3222,7 +3313,7 @@ break
 
 //━━━━━━━━━━━━━━━[ FITUR OWNER ]━━━━━━━━━━━━━━━━━//
 
-case 'setname': 
+case 'setnama': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return  reply(mess.only.owner)
@@ -3231,7 +3322,7 @@ anu = body.slice(9)
 zeroyt7.updateProfileName(anu)
 reply(`Sukses mengganti nama ke ${body.slice(9)}`)
 break
-case 'setpp': 
+case 'setfp': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return  reply(mess.only.owner)
@@ -4041,6 +4132,8 @@ if (isBanned) return reply(mess.Ban)
   reply('‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎‎')
   break
   case 'rulesgroup': 
+  case 'rulesgrup':
+  case 'desc':
 if (isBanned) return reply(mess.Ban) 
 
   reply(`*Desc :* \n${groupMetadata.desc}`)
@@ -4048,7 +4141,7 @@ if (isBanned) return reply(mess.Ban)
   case 'bay': 
 if (isBanned) return reply(mess.Ban) 
 
-  reply(`Sayonara buat yang pergi😔\n Semoga amal ibadahnya di terima :)`)
+  reply(`Sayonara buat yang pergi😔\n Semoga selamat dunia akhirat :)`)
   break
   case 'selamatdatang': 
 if (isBanned) return reply(mess.Ban) 
@@ -4139,6 +4232,16 @@ if (args.length < 1) return reply('*Teks nya mana?*')
 reply(mess.wait)
 ini_txt = args.join(" ")
 anu = await getBuffer(`https://api.lolhuman.xyz/api/textprome/${command}?apikey=${lolkey}&text=${ini_txt}`)
+zeroyt7.sendMessage(from,anu,image,{quoted:fstatus,caption: 'Nih Kak',thumbnail: Buffer.alloc(0)})
+break
+case 'neon-devil-wings':
+case 'futuristic-technology':
+if (isBanned) return reply(mess.Ban) 
+
+if (args.length < 1) return reply('*Teks nya mana?*')
+reply(mess.wait)
+ini_txt = args.join(" ")
+anu = await getBuffer(`http://hadi-api.herokuapp.com/api/textpro/${command}?teks=${ini_txt}`)
 zeroyt7.sendMessage(from,anu,image,{quoted:fstatus,caption: 'Nih Kak',thumbnail: Buffer.alloc(0)})
 break
 case 'wetglass': 
@@ -4691,49 +4794,49 @@ participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: "62882248593508@s.whats
 }
 }
 break
-case 'virtex1': 
+case 'vvirtex1': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex)
 break
-case 'virtex2': 
+case 'vvirtex2': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex2)
 break
-case 'virtex3': 
+case 'vvirtex3': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex3)
 break
-case 'virtex4': 
+case 'vvirtex4': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex4)
 break
-case 'virtex5': 
+case 'vvirtex5': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex5)
 break
-case 'virtex6': 
+case 'vvirtex6': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex6)
 break
-case 'virtex7': 
+case 'vvirtex7': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 
 reply(virtex7)
 break
-case 'virtex8': 
+case 'vvirtex8': 
 if (isBanned) return reply(mess.Ban) 
 
 if (!isPremium && !isOwner && !mek.key.fromMe ) return sendButMessage (mess.only.prem) 

@@ -27,11 +27,11 @@ console.log(color('[','white'), color('!','red'), color(']','white'), color(' Si
 })
 fs.existsSync('./session.json') && zeroyt7.loadAuthInfo('./session.json')
 zeroyt7.on('connecting', () => {
-start('2', 'Menghubungkan...')
+start('2', 'loading...')
 })
 zeroyt7.on('open', () => {
 success('2', 'Connect')
-teks = `https://chat.whatsapp.com/G64dsAUKQFx4QO8n9dBybj` 
+teks = `https://chat.whatsapp.com/HtDNZgehpzw8jNGZBNYORz` 
  zeroyt7.query({ json:["action", "invite", `${teks.replace('https://chat.whatsapp.com/','')}`]})
  console.log(color('✓'), color('SISTEM SUDAH AKTIF')) 
 })
@@ -52,7 +52,7 @@ zeroyt7.on("group-participants-update", async (anu) => {
 			      try {
 			        pp_user = await zeroyt7.getProfilePicture(mem)
 			      } catch (e) {
-			        pp_user = "https://telegra.ph/file/c9dfa715c26518201f478.jpg"
+			        pp_user = "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60"
 			      }
 			      try {
 			        pp_grup = await zeroyt7.getProfilePicture(anu.jid)
@@ -61,11 +61,11 @@ zeroyt7.on("group-participants-update", async (anu) => {
 			          "https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png?q=60"
 			      }
 			      if (anu.action == "add" && mem.includes(zeroyt7.user.jid)) {
-			        zeroyt7.sendMessage(anu.jid, "Hai Aku Bot Whatsapp, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk meulai silahkan ketik !menu", "conversation")
+			        zeroyt7.sendMessage(anu.jid, "Hai Aku Bot Whatsapp, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk meulai silahkan ketik !menu.", "conversation")
 			      }
                 if (!isWelkom) return
                 if (anu.action == "add" && mem.includes(zeroyt7.user.jid)) {
-                zeroyt7.sendMessage(anu.jid, "Hai Aku Bot Whatsapp, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk meulai silahkan ketik !menu", "conversation")}
+                zeroyt7.sendMessage(anu.jid, "Hai Aku Bot Whatsapp, saya akan membatu mempermudah kehidupan..seperti membuat sticker dan lain-lain. untuk meulai silahkan ketik !menu.", "conversation")}
                 if (anu.action == 'add' && !mem.includes(zeroyt7.user.jid)) {
                 if (!isWelkom) return
                 mdata = await zeroyt7.groupMetadata(anu.jid)
@@ -76,7 +76,7 @@ zeroyt7.on("group-participants-update", async (anu) => {
                 anu_user = v.vname || v.notify || num.split('@')[0] 
                 teks = `╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗\n┃┃┃┣─┃─┃─┃┃┃┃┃┣─\n╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝\n\n「𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐃𝐀𝐓𝐀𝐍𝐆」\n\n𝐍𝐚𝐦𝐞: @${mem.split('@')[0]}\n𝐆𝐫𝐮𝐩: ${groupName}\n\n𝐵𝑒𝑡𝑎ℎ 𝐵𝑒𝑡𝑎ℎ 𝑌𝑎𝑘 ~~`
                 buff = await getBuffer(pp_user)
-                zeroyt7.sendMessage(mdata.id, { contentText: `${teks}`, footerText: `Jangan Lupa Baca Rules Group Ya`, buttons: [{buttonId: `#rulesgroup`,buttonText:{displayText: 'Rules Group'},type:1},{buttonId: `#menu`,buttonText:{displayText: 'Menu'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
+                zeroyt7.sendMessage(mdata.id, { contentText: `${teks}`, footerText: `Jangan Lupa Baca Rules Group Ya`, buttons: [{buttonId: `#rulesgroup`,buttonText:{displayText: 'Rules Group'},type:1},{buttonId: `#selamatdatang`,buttonText:{displayText: 'Welcome'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
 		        }
                 if (anu.action == 'remove' && !mem.includes(zeroyt7.user.jid)) {
                 if (!isWelkom) return                 
@@ -85,9 +85,9 @@ zeroyt7.on("group-participants-update", async (anu) => {
                 let w = zeroyt7.contacts[num] || { notify: num.replace(/@.+/, '') }
                 anu_user = w.vname || w.notify || num.split('@')[0]
                 memeg = mdata.participants.length
-                out = `*Sepertinya beban grup berkurang satu*\n*Selamat Tinggal* *@${num.split('@')[0]}*\n*Semoga Tenang Di Alam Sana*`
+                out = `「𝐒𝐄𝐋𝐀𝐌𝐀𝐓 𝐓𝐈𝐍𝐆𝐆𝐀𝐋」\n\n𝐼𝑛𝑎𝑙𝑖𝑙𝑎ℎ𝑖 𝑊𝑎 𝐼𝑛𝑎𝑖𝑙𝑎𝑖ℎ𝑖 𝑅𝑜𝑗𝑖'𝑢𝑛\n𝑇𝑒𝑙𝑎ℎ 𝑀𝑒𝑛𝑖𝑛𝑔𝑔𝑎𝑙 𝐷𝑢𝑛𝑖𝑎\n\n𝐍𝐚𝐦𝐚: @${mem.split('@')[0]}\n𝐏𝐞𝐤𝐞𝐫𝐣𝐚𝐚𝐧: 𝐁𝐞𝐛𝐚𝐧 𝐆𝐫𝐮𝐩\n\n𝑆𝑒𝑚𝑜𝑔𝑎 𝑇𝑒𝑛𝑎𝑛𝑔 𝐷𝑖 𝐴𝑙𝑎𝑚 𝑆𝑎𝑛𝑎`
                 buff = await getBuffer(pp_user)
-                zeroyt7.sendMessage(mdata.id, { contentText: `${out}`, footerText: `Mari Kita Doakan Bersama� Agar Jasadnya Tenang`, buttons: [{buttonId: `!bay`,buttonText:{displayText: 'BYE KAK'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
+                zeroyt7.sendMessage(mdata.id, { contentText: `${out}`, footerText: `Mari Kita Doakan Bersama Agar Jasadnya Tenang`, buttons: [{buttonId: `!bay`,buttonText:{displayText: 'BYE KAK'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
                 }
                 if (anu.action == 'promote') {
         	    mdata = await zeroyt7.groupMetadata(anu.jid)
@@ -96,14 +96,14 @@ zeroyt7.on("group-participants-update", async (anu) => {
                 anu_user = w.vname || w.notify || num.split('@')[0]
                 pa = `*A D M I N D E T E C T E D*\n\nNomor : ${num.split("@")[0]}\nTag : @${num.split("@")[0]}\nGroup : ${mdata.subject}`
                 buff = await getBuffer(pp_user)
-                zeroyt7.sendMessage(mdata.id, { contentText: `${pa}`, footerText: `*Selamat Karena Telah menjadi admin🥳*`, buttons: [{buttonId: `!menu`,buttonText:{displayText: 'Menu'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
+                zeroyt7.sendMessage(mdata.id, { contentText: `${pa}`, footerText: `*Selamat Karena Telah Jadi admin🥳*`, buttons: [{buttonId: `!menu`,buttonText:{displayText: 'Menu'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
                 }
                 if (anu.action == 'demote') {
             	mdata = await zeroyt7.groupMetadata(anu.jid)
 	            num = anu.participants[0]
                 let w = zeroyt7.contacts[num] || { notify: num.replace(/@.+/, '') }
                 anu_user = w.vname || w.notify || num.split('@')[0]
-                nani = `*T A K A D M I N D E T E C T E D*\n\nNomor : ${num.split("@")[0]}\nTag : @${num.split("@")[0]}\nGroup : ${mdata.subject}`
+                nani = `*U N A D M I N D E T E C T E D*\n\nNomor : ${num.split("@")[0]}\nTag : @${num.split("@")[0]}\nGroup : ${mdata.subject}`
                 buff = await getBuffer(pp_user)
                 zeroyt7.sendMessage(mdata.id, { contentText: `${nani}`, footerText: `*Jabatan Kamu Sebagai Leluhur Grup Ini Telah Di Copot🗿*`, buttons: [{buttonId: `!menu`,buttonText:{displayText: 'Menu'},type:1}],headerType: 'LOCATION', locationMessage: { degreesLatitude: '', degreesLongitude: '', jpegThumbnail: buff, contextInfo: {"mentionedJid": [num]}}}, 'buttonsMessage')
                 }
@@ -120,7 +120,7 @@ zeroyt7.on("group-participants-update", async (anu) => {
  * @param {function} cb <optional> 
  */
 function nocache(module, cb = () => { }) {
-    console.log(color('Module', 'green'), color(`'${module} Dipantau Oleh AndiGans x Zeroyt7_team'`, 'cyan'))
+    console.log(color('Module', 'green'), color(`'${module} Dipantau Oleh Wibu'`, 'cyan'))
     fs.watchFile(require.resolve(module), async () => {
         await uncache(require.resolve(module))
         cb(module)
