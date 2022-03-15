@@ -2565,23 +2565,6 @@ break
 
 //━━━━━━━━━━━━━━━[ FITUR DOWNLOADER ]━━━━━━━━━━━━━━━━━//
 
-case 'play': 
-if (isBanned) return reply(mess.Ban) 
-if (args.length == 0) return await reply(`Judul Lagunya Mana Tod\nContoh : ${prefix + command} melukis senja`)
-await fetchJson(`https://api.lolhuman.xyz/api/ytsearch?apikey=${lolkey}&query=${args.join(" ")}`)
-.then(async(result) => {
-await fetchJson(`https://api.lolhuman.xyz/api/ytaudio2?apikey=${lolkey}&url=https://www.youtube.com/watch?v=${result.result[0].videoId}`)
-.then(async(result) => {
-result = result.result
-caption = `❖ Title    : *${result.title}*\n`
-caption += `❖ Size     : *${result.size}*`
-ini_buffer = await getBuffer(result.thumbnail)
-await zeroyt7.sendMessage(from, ini_buffer, image, { quoted: fstatus, caption: caption })
-get_audio = await getBuffer(result.link)
-await zeroyt7.sendMessage(from, get_audio, audio, { mimetype: 'audio/mp4', filename: `${result.title}.mp3`, quoted: fstatus })
-})
-})
-break
 case 'ytmp3':
 if (args.length == 0) return reply(`Link Nya Mana Tod\nContoh: ${prefix + command} https://www.youtube.com/watch?`)
 ini_link = args[0]
